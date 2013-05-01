@@ -84,6 +84,7 @@ def hangman():
 				print "remaining lives:", lives
 				print disguised_word
         		
-        		
+if __name__ == '__main__':
+	hangman()      		
 # let's play hangman!
-hangman()
+
